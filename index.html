@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="pl" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trojańskie Inspiracje Chopinowskie</title>
     <link rel="stylesheet" href="cdn/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Trojańskie Inspiracje Chopinowskie</h1>
+    <nav class="navbar navbar-kolor navbar-expand-lg bg-body-tertiary" style="background-color: #1b2951;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Trojańskie Inspiracje Chopinowskie</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Strona główna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">O nas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Usługi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Wydarzenia</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-3 wyszukiwarka" type="search" placeholder="Wyszukaj wydarzenie lub usługę" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit">Szukaj</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
     <script src="cdn/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
